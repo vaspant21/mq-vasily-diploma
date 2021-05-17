@@ -308,6 +308,9 @@
     display: flex;
     align-items: flex-end;
     z-index: 1;
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+    padding-bottom: 1.125rem;
 }
 
 .trend-card::before {
@@ -399,15 +402,17 @@
     flex-direction: column;
     border: 3px solid #908154;
     padding: 2.437rem 2.437rem 2.437rem 2.437rem;
-    margin-left: 1.125rem;
-    margin-right: 1.125rem;
-    margin-bottom: 1.125rem;
     flex-grow: 1;
 }
 
 .trend-tag-list {
     list-style-type: none;
     display: flex;
+}
+
+.trend-tag-list a {
+    font-family: "OpenSans-Bold", sans-serif;
+    font-weight: 700;
 }
 
 .trend-tag:not(:last-child) {
